@@ -1,0 +1,17 @@
+# IDE
+.idea
+.vscode
+
+# Folders
+build
+coverage
+dist
+docs
+node_modules
+
+# Logs
+*.log
+
+# Locks
+yarn.lock
+package-lock.json

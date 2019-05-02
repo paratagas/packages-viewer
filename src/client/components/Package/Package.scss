@@ -1,0 +1,40 @@
+@import '../../styles/base';
+
+.package {
+  margin-bottom: 15px;
+
+  button {
+    color: $colour--secondary;
+  }
+
+  &__info {
+
+    .expanded {
+      background-color: $colour--tertiary;
+    }
+
+    button {
+      color: $colour--secondary;
+    }
+
+    button.disabled {
+      cursor: not-allowed;
+      margin-bottom: 15px;
+    }
+
+    &__content {
+      color: $colour--secondary;
+      margin-bottom: 30px;
+      margin-left: 50px;
+      margin-top: 10px;
+
+      &__dependencies {
+        margin-bottom: 20px;
+      }
+
+      &__reversed--dependencies {
+        margin-bottom: 20px;
+      }
+    }
+  }
+}

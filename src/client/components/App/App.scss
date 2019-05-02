@@ -1,0 +1,27 @@
+@import '../../styles/base';
+
+html {
+  background-color: $colour--primary;
+  min-height: 100%;
+  position: relative;
+}
+
+body {
+  background-color: $colour--primary;
+  height: 100%;
+}
+
+.container {
+  margin: 10px 10px 0 10px;
+  max-width: 100%;
+}
+
+.packages--list {
+  margin-right: 10px;
+
+  .header {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+  }
+}
